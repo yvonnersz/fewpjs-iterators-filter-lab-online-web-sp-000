@@ -7,6 +7,4 @@ function findMatching(drivers, string) {
 function fuzzyMatch(drivers, string) {
   let firstLetters = string.length;
   return drivers.filter(name => name.slice(0, string.length) === string)
-
-  new
 }
